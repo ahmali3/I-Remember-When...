@@ -6,6 +6,9 @@ _I Remember When…_ is a social, “get-to-know-you”, conversation-based Andr
 
 While _I Remember When…_ is designed to be playable by anybody with some level of computer skill, the game is designed primarily with seniors in mind. Aspects such as its simple to understand GUI, minimal use of keyboard, and focus on utilization of a microphone and camera make the app accessible to those who typically do not enjoy mobile games. The game focuses on personal narrative and communication, and removes the need for dexterity, quick reaction time, and sharp vision. By excluding these typical mobile game factors, _I Remember When…_ creates a level playing field for multiple generations to play together and connect.
 
+# Demo
+https://youtu.be/HOCaHMsrhu0
+
 # Guidelines
 
 - Development has been done in Android Studio Version 4.x.x
