@@ -1,0 +1,198 @@
+{
+  "db": {
+    "prompts": {
+      "1": {
+        "prompt": "A scary time when you were walking alone outside in the middle of the night"
+      },
+      "2": {
+        "prompt": "A near-death encounter"
+      },
+      "3": {
+        "prompt": "A crazy part of a trip that you’ve previously had"
+      },
+      "4": {
+        "prompt": "A funny mistake that your friend made that made you laugh"
+      },
+      "5": {
+        "prompt": "The story behind your name"
+      },
+      "6": {
+        "prompt": "Your first job"
+      },
+      "7": {
+        "prompt": "What did you do for fun when you were a child?"
+      },
+      "8": {
+        "prompt": "An embarrassing trend you followed"
+      },
+      "9": {
+        "prompt": "What inventions do you remember most vividly?"
+      },
+      "10": {
+        "prompt": "Your earliest memory"
+      },
+      "11": {
+        "prompt": "Describe your best friends growing up"
+      },
+      "12": {
+        "prompt": "What was your childhood home like?"
+      },
+      "13": {
+        "prompt": "The time you met the love-of-your-life"
+      },
+      "14": {
+        "prompt": "What do you remember most about your parents or grandparents?"
+      },
+      "15": {
+        "prompt": "The biggest purchase you’ve ever made"
+      },
+      "16": {
+        "prompt": " When is the proudest you’ve ever felt?"
+      },
+      "17": {
+        "prompt": "Your favorite story from your career(s)"
+      },
+      "18": {
+        "prompt": "What’s the best life advice you’ve ever gotten? Where did you hear it?"
+      },
+      "19": {
+        "prompt": "A special party or celebration that sticks out to you"
+      },
+      "20": {
+        "prompt": "The best day of your life"
+      },
+      "21": {
+        "prompt": "The highest compliment or praise you’ve ever received"
+      },
+      "22": {
+        "prompt": "What has been your most treasured possession?"
+      },
+      "23": {
+        "prompt": "What family traditions do you always want to remember and keep alive?"
+      },
+      "24": {
+        "prompt": "Describe a turning point in your life"
+      },
+      "25": {
+        "prompt": "What was your worst habit as a child?"
+      },
+      "26": {
+        "prompt": "What was the worst advice you’ve gotten?"
+      },
+      "27": {
+        "prompt": "A time you overcame a fear"
+      },
+      "28": {
+        "prompt": "A toy you wanted but never got"
+      },
+      "29": {
+        "prompt": "Who have been the most important people in your life?"
+      },
+      "30": {
+        "prompt": "Describe a time when someone was unexpectedly kind to you."
+      },
+      "31": {
+        "prompt": "Describe a random act of kindness you did for someone else."
+      },
+      "32": {
+        "prompt": "Finish this thought: Nobody knows that I . . ."
+      },
+      "33": {
+        "prompt": "What is the biggest lie you have ever told?"
+      },
+      "34": {
+        "prompt": "What have you done for love?"
+      },
+      "35": {
+        "prompt": "What recurring dreams and nightmares have you had?"
+      },
+      "36": {
+        "prompt": "What are the 3 things that make you smile?"
+      },
+      "37": {
+        "prompt": "What places have you most enjoyed visiting?"
+      },
+      "38": {
+        "prompt": "What scares you?"
+      },
+      "39": {
+        "prompt": "What is your favorite book/movie/song?"
+      },
+      "40": {
+        "prompt": "Do you like your name? Has it ever changed? What is your favorite name?"
+      },
+      "41": {
+        "prompt": "Describe your favorite activity"
+      },
+      "42": {
+        "prompt": "Do you have any regrets?"
+      },
+      "43": {
+        "prompt": "When did you feel happiest?"
+      },
+      "44": {
+        "prompt": "What are your favorite things to wear?"
+      },
+      "45": {
+        "prompt": "What are three things you can’t go without?"
+      },
+      "46": {
+        "prompt": "What is your favorite way to spend the day?"
+      },
+      "47": {
+        "prompt": "What things did you create when you were a child?"
+      },
+      "48": {
+        "prompt": "What place do you remember fondly from childhood?"
+      },
+      "49": {
+        "prompt": "Have you ever felt embarrassed by things you used to like?"
+      },
+      "50": {
+        "prompt": "If you could return to moments from your past, which moment you would choose?"
+      },
+      "51": {
+        "prompt": "What objects tell the story of your life?"
+      },
+      "52": {
+        "prompt": "What are your best sleepover memories?"
+      },
+      "53": {
+        "prompt": "What is the best gift you’ve ever given or received?"
+      },
+      "54": {
+        "prompt": "What nicknames have you ever gotten or given?"
+      },
+      "55": {
+        "prompt": "What personal achievements make you proud?"
+      },
+      "56": {
+        "prompt": "Did your parents support your learning?"
+      },
+      "57": {
+        "prompt": "What had your parents taught you about money?"
+      },
+      "58": {
+        "prompt": "How did you make parenting difficult for your parents?"
+      },
+      "59": {
+        "prompt": "Have you ever lost something valuable?"
+      },
+      "60": {
+        "prompt": "Have you ever found something valuable?"
+      },
+      "61": {
+        "prompt": "What challenges did you have to deal in your life?"
+      },
+      "62": {
+        "prompt": "When have you ever failed at something? What happened as a result?"
+      },
+      "63": {
+        "prompt": "When have you ever succeeded when you thought you might fail?"
+      },
+      "64": {
+        "prompt": "What memorable experience have you had in learning science or math?"
+      }
+    }
+  }
+}
