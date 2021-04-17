@@ -1,0 +1,72 @@
+def useIntlJsc = false
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.game.rememberwhen"
+        minSdkVersion 21 //23 if not working
+        targetSdkVersion 28
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0-${System.env.VERSION_SHA}"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}
+
+dependencies {
+    if (useIntlJsc) {
+        implementation 'org.webkit:android-jsc-intl:+'
+    } else {
+        implementation 'org.webkit:android-jsc:+'
+    }
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // Add multidex library
+    implementation "androidx.multidex:multidex:2.0.1"
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:26.7.0')
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    // Firestore (Java)
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // Firebase Authentication (Java)
+    implementation 'com.google.firebase:firebase-auth'
+
+    // Google Play services
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    // FirebaseUI (for authentication)
+    implementation 'com.firebaseui:firebase-ui-auth:7.1.1'
+    // Firebase Realtime-Database
+    implementation 'com.google.firebase:firebase-database:19.7.0'
+    // Jitsi Meet
+    implementation('org.jitsi.react:jitsi-meet-sdk:2.9.0') { transitive = true }
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+}
