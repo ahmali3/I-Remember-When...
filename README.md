@@ -64,7 +64,7 @@ Firebase features were implemented by following the Firebase documentation
 https://firebase.google.com/docs
 
 # Creators
-Ahmed Ali (Scrum Master)
-Jacqueline Greer (Product Owner)
-Punar Brar (Repo Manager)
-Delaram Omidi (Team Member)
+- Ahmed Ali (Scrum Master)
+- Jacqueline Greer (Product Owner)
+- Punar Brar (Repo Manager)
+- Delaram Omidi (Team Member)
